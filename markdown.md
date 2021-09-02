@@ -38,9 +38,10 @@ Soy un `[enlace](https://anundeweb.com/)` a esta web. - Soy un [enlace](https://
 
 ## Sintaxis básica: Headers
 
-`# Header 1`    
-`## Header 2`   
-`### Header 3`   
-`#### Header 4`   
-`##### Header 5`    
-`###### Header 6`
+    # Header 1    
+    ## Header 2  
+    ### Header 3   
+    #### Header 4   
+    ##### Header 5    
+    ###### Header 6
+
