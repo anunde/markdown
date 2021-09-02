@@ -12,8 +12,81 @@ EH! Espera no te muevas, todavía hay más.
 
 Dejando a un lado lo mencionado anteriormente cuando hablamos de Markdown estamos hablando de uno de los formatos más universales de todo internet, la compatibilidad de Markdown facilita su edición y publicación en diferentes plataformas, servicios y aplicaciones, manteniendo el formato origen del documento sin complicaciones.
 
-Por eso, si publicamos con asiduidad en internet nos interesará saber que servicios como Trello, plugins de CMS para Wordpress o Joomla y foros como Reddit y Stackoverflow estan preparados para la compatibilidad con Markdown. No solo eso, también podemos utilizarlo para redactar emails con formato o escribir en una web sin tener ni idea de HTML.
+Por eso, si publicamos con asiduidad en internet nos interesará saber que servicios como Trello y Github, plugins de CMS para Wordpress o Joomla y foros como Reddit y Stackoverflow estan preparados para la compatibilidad con Markdown. No solo eso, también podemos utilizarlo para redactar emails con formato o escribir en una web sin tener ni idea de HTML.
+
+>Por cierto, podrás ver este mismo artículo hecho con Markdown en el readme.md de un repositorio subido a mi Github que he subido para que puedas verlo desde otra plataforma, pinchando [aquí](https://github.com/anunde/markdown).
 
 No obstante, el propio inventor de Markdown, [John Gruber](https://en.wikipedia.org/wiki/John_Gruber), ha desarrollado una herramienta online [Dingus](https://daringfireball.net/projects/markdown/dingus) que nos permite convertir nuestro documento Markdown a HTML si fuera necesario. Y no solo a HTML, hay decenas de formas a través de las cuales podemos exportarlo fácilmente a .pdf, .doc e incluso .epub si quisiéramos escribir un libro con él.
 
 Entonces no es de extrañar que debido a su gran compatibilidad y a su empinada curva de aprendizaje sea elegido por equipos de trabajo que comprendan una variada plantilla formada por profesionales especializados en diferentes disciplinas. Una inteligente forma de unir periodistas y redactores con programadores y diseñadores.
+
+Y ahora voy a incluir algunos de los comandos de formateo más ultilizados y de los cuales he hecho uso para redactar este artículo. 
+
+## Sintaxis básica: Énfasis
+
+Soy un `*texto inclinado*`. - Soy un *texto inclinado*.   
+Soy un `**texto en negrita**`. - Soy un **texto en negrita**.   
+
+>En Markdown no se puede utilizar el **underline**
+
+## Sintaxis básica: Enlaces
+
+Soy un `[enlace](https://anundeweb.com/)` a esta web. - Soy un [enlace](https://anundeweb.com//) a esta web.
+
+## Sintaxis básica: Imágenes
+
+`![alt text](/path/img.jpg "Title")`  
+![Logo Markdown](markdown.png "Logo Markdown")
+
+## Sintaxis básica: Encabezados
+
+    # Header 1    
+    ## Header 2  
+    ### Header 3   
+    #### Header 4   
+    ##### Header 5    
+    ###### Header 6
+
+## Sintaxis básica: Listas ordenadas
+
+    1.  Manzana
+    2.  Pera
+    3.  Plátano   
+  
+1.  Manzana
+2.  Pera
+3.  Plátano
+
+## Sintaxis básica: Listas desordenadas
+
+    *  Elemento 
+    *  Elemento  
+  
+*  Elemento 
+*  Elemento 
+
+## Sintaxis básica: Citas
+
+`>Hola, esto es una cita.`
+
+>Hola, esto es una cita.
+
+## Sintaxis básica: Código
+
+Una forma sencilla seria envolver el texto con comillas simples `` ` `` -
+`<h1>Hola Mundo</h1>`
+
+## Sintaxis básica: Barras horizontales
+
+Escribiremos tres asteriscos juntos `***`.
+
+## Sintaxis básica: Saltos de línea
+
+Debemos incluir dos o más espacios después de la última palabra de la frase donde queremos introducir el salto de línea.
+
+***
+
+Si quieres profundizar más en Markdown te recomiendo te dirijas a esta [guía](https://www.markdownguide.org/getting-started/) donde encontrarás muchísima más información útil y documentación sobre el tema.
+
+¡Muchas gracias!
+Un Saludo.
